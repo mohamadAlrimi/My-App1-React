@@ -1,7 +1,9 @@
 import logo from "./logo.svg";
+import MyCom from "./Components/MyCom";
 import "./App.css";
 
 function App() {
+ 
   return (
     <div className="App">
       <header className="App-header">
@@ -23,19 +25,5 @@ function App() {
     </div>
   );
 }
-function MyCom() {
-  return (
-    <>
-      <h1> hello muhammed click on the button pleas</h1>
-      <img
-        src="https://iso.500px.com/wp-content/uploads/2016/02/stock-photo-114337435-1500x1000.jpg"
-        alt="logo"
-      ></img>
-      <br />
-      <button>click me here </button>
-      <br />
-      <button>write anything </button>
-    </>
-  );
-}
+
 export default App;
